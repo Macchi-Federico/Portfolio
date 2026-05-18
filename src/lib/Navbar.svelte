@@ -5,7 +5,6 @@
   let menuOpen = $state(false);
 
   const links = [
-    { label: 'Chi sono', href: '#about' },
     { label: '3° Anno',  href: '#year3' },
     { label: '4° Anno',  href: '#year4' },
     { label: '5° Anno',  href: '#year5' },
@@ -71,21 +70,7 @@
     text-decoration: none;
   }
 
-  .logo-mark {
-    width: 34px;
-    height: 34px;
-    border-radius: 8px;
-    background: var(--violet);
-    color: #fff;
-    font-family: var(--mono);
-    font-size: 0.78rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 0;
-    flex-shrink: 0;
-  }
+
 
   .logo-name {
     font-size: 0.92rem;

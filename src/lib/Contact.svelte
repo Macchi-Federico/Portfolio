@@ -22,8 +22,6 @@
     { key: '"scuola"',   val: '"ITIS Edoardo Agnelli"', color: 'str' },
     { key: '"indirizzo"',val: '"Informatica e TLC"',    color: 'str' },
     { key: '"anno"',     val: '"5ª · 2025/26"',         color: 'str' },
-    { key: '"pcto_ore"', val: '200',                    color: 'num' },
-    { key: '"passioni"', val: '["software", "networking", "open source"]', color: 'arr' },
   ];
 </script>
 

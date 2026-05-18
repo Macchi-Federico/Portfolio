@@ -1,30 +1,28 @@
 <script>
-  // ✏️ MODIFICA QUI con i tuoi dati reali!
+  import { base } from "$app/paths";
 
   const year3 = {
     label: '3° Anno',
     period: '2023 / 2024',
-    description: 'Il terzo anno è stato il primo contatto serio con la programmazione strutturata. Ho imparato le basi del linguaggio C e ho sviluppato il mio primo progetto completo: un calcolatore del codice fiscale.',
-    
     projects: [
       {
         title: 'Calcolatore Codice Fiscale',
         desc: 'Partendo dalle informazioni personali (nome, cognome, data e luogo di nascita, sesso) il programma calcola automaticamente il codice fiscale secondo le regole ufficiali.',
         tags: ['C'],
         href: 'https://github.com/Macchi-Federico/Codice-Fiscale',
-        file: '/presentazioni/FedericoMacchi _Codice-Fiscale.pptx',
+        file: `${base}/presentazioni/FedericoMacchi _Codice-Fiscale.pptx`,
       },
       {
         title: 'La Mattanza',
         desc: 'ELABORATO A PARTIRE DA "LA MATTANZA".',
         tags: ['Italiano'],
-        file: '/presentazioni/LA_MATTANZA.pdf',
+        file: `${base}/presentazioni/LA_MATTANZA.pdf`,
       },
       {
         title: 'La Zoomafia',
         desc: 'ELABORATO A PARTIRE DA "LA MATTANZA".',
         tags: ['Italiano'],
-        file: '/presentazioni/ZOOMAFIA.pdf',
+        file: `${base}/presentazioni/ZOOMAFIA.pdf`,
       },
     ],
   };
@@ -32,7 +30,6 @@
   const year4 = {
     label: '4° Anno',
     period: '2024 / 2025',
-    description: 'Anno più intenso, con progetti più complessi. Ho sviluppato una web app in Python con Tkinter e mi sono avvicinato al mondo della sicurezza informatica attraverso una simulazione di ARP Poisoning.',
     subjects: ['Informatica', 'Sistemi & Reti', 'TPSIT'],
     projects: [
       {
@@ -47,7 +44,6 @@
   const year5 = {
     label: '5° Anno',
     period: '2025 / 2026',
-    description: "Durante l'anno conclusivo il tema di educazione civica fu prigionia e libertà.",
     subjects: ['Informatica', 'Sistemi & Reti', 'TPSIT', 'Gestione Progetto'],
     projects: [
       {
@@ -60,57 +56,56 @@
         title: 'Prigione Domestica',
         desc: "Presentazione per educazione civica sul tema della prigionia domestica e della libertà. Analisi del fenomeno con riflessioni personali.",
         tags: ['Italiano'],
-        file: '/presentazioni/La-Prigione-Domestica-Dati-Psicologia-e-Diritto.pdf', 
+        file: `${base}/presentazioni/La-Prigione-Domestica-Dati-Psicologia-e-Diritto.pdf`,
       },
       {
         title: 'How to Use the Internet Safely',
         desc: "An analysis of the main risks of the web and best practices for a conscious and safe use of the internet.",
-        tags: ['Inglese'], 
+        tags: ['Inglese'],
       },
       {
         title: 'Incontro con Roberto Saviano',
         desc: "Dialogo con lo scrittore a partire dal suo libro",
-        tags: ['Italiano'], 
+        tags: ['Italiano'],
       },
       {
         title: 'Artificial Intelligence',
         desc: "Advantages and Disadvantages of AI",
-        tags: ['Inglese'], 
+        tags: ['Inglese'],
       },
       {
-        title: 'Primo Levi e la "zona grigia" ',
+        title: 'Primo Levi e la "zona grigia"',
         desc: "Riflessione sulla prigionia nei campi di concentramento attraverso la testimonianza di Levi e il concetto di vergogna del sopravvissuto",
-        tags: ['Italiano'], 
+        tags: ['Italiano'],
       },
       {
         title: 'Aktion T4 e Lebensborn',
-        desc: "Approfondimento su due programmi del regime nazista: l'eliminazione sistematica delle persone con disabilità e la fabbrica ariana di Himmler.",
-        tags: ['Italiano'], 
+        desc: "Approfondimento su due programmi del regime nazista: l'eliminazione sistematica delle persone con disabilità e il progetto di selezione eugenetica promosso dalle SS.",
+        tags: ['Italiano'],
       },
       {
-        title: 'La Costituzione italiana" ',
-        desc: "I principi fondamentali Studio degli articoli 1-12,",
-        tags: ['Italiano'], 
+        title: 'La Costituzione italiana',
+        desc: "Studio degli articoli 1-12, fondamento dei diritti e dei doveri che regolano la convivenza civile nella Repubblica italiana.",
+        tags: ['Italiano'],
       },
       {
-        title: 'Il \'68',
+        title: "Il '68",
         desc: "Analisi del movimento studentesco e sociale del 1968, tra proteste, ideali e trasformazioni culturali durature.",
-        tags: ['Italiano'], 
+        tags: ['Italiano'],
       },
       {
         title: 'Water and Soil Pollution',
         desc: "An examination of the causes and consequences of environmental pollution, alongside the key measures and policies for its prevention and mitigation.",
-        tags: ['Inglese'], 
+        tags: ['Inglese'],
       },
       {
-        title: 'Social and Ethical Problems of the Internet ',
+        title: 'Social and Ethical Problems of the Internet',
         desc: "A reflection on the social and ethical challenges posed by the internet, including privacy, misinformation, digital inequality and online behaviour.",
-        tags: ['Inglese'], 
+        tags: ['Inglese'],
       },
     ],
   };
 </script>
-
 <!-- ============ 3° Anno ============ -->
 <section id="year3" class="year-section year-violet">
   <div class="container">
